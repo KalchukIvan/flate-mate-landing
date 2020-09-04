@@ -1,0 +1,242 @@
+ @media (min-width: 769px) and (max-width: 1047px) {
+   header.header .logo { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+   }
+   header.header .logo img {
+     width: 50%;
+   }
+  .banner_1 {
+    width: 56%;
+    margin: 0 auto;
+  }
+  .promo {
+    width: calc(100% - 60px);
+  }
+  .promo img.file {
+    /* width: 20%;
+    height: 60%;
+    padding-right: 12px; */
+    width: auto;
+  }
+  .promo .promo_text h2 {
+    font-size: 25px;
+  }
+  .promo .promo_text p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .promo .promo_icons {
+    width: 12%;
+  }
+  .promo .promo_icons img {
+    width: 57%;
+  }
+  .price .price_table .column_1 {
+    width: 26%;
+  }
+  .price .price_table .column_2 {
+    width: 26%;
+  }
+  .price .price_table .column_3 {
+    width: 26%;
+  }
+  .price .price_button button {
+    width: 26%;
+  }
+}
+@media(min-width: 684px) and (max-width:768px) {
+  header.header {
+    align-items: center;
+    padding: 0 50px;
+  }
+  header.header .login {
+    width: 290px;
+  }
+  .promo {
+    /* margin: 0 0; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .promo img.file {
+    /* height: 60%; */
+  }
+  .promo_icons img {
+    width: 70%;
+  }
+  .promo .promo_icons {
+    width: 60px;
+  }
+  .banner .banner_1 h1 {
+    margin: 25px 0 0 0 ;
+    padding: 0;
+  }
+  .banner .banner_1 button {
+    width: 40%;
+  }
+  .banner  img {
+    padding: 0;
+    width: 17%;
+  }
+  .price {
+    padding-top: 30px; 
+  }
+  .form_group .form_button button {
+    width: 27%;
+    height: 140%;
+  }
+  footer .footer_icons img {
+    width: 45px;
+    height: 45px
+  }
+}
+@media(min-width: 481px) and (max-width: 683px) {
+  .cover {
+   height: 480px;
+
+  }
+  .cover .cover_curtain {
+    height: 480px;
+  }
+  header.header {
+    align-items: center;
+    padding: 10px 50px;
+  }
+  header.header .logo {
+    width: 150px;
+  
+  }
+  header.header .logo img {
+    width: 100px;
+    height: 20px;
+  }
+  header.header p {
+    font-size: 15px;
+  }
+  header.header a {
+    font-size: 16px;
+  }
+  .banner {
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+  }
+  .banner img {
+    padding: 0 0 0 15px;
+    width: 100px;
+    height: 100px;
+  }
+  .banner .banner_1 h1 {
+    font-size: 25px;
+    margin: 15px 0 0 0;
+    padding-bottom: 0;
+  }
+  .banner .banner_1 p {
+    font-size: 17px;
+  }
+  .banner .banner_1 button {
+    width: 95px;
+    height: 42px;
+  }
+  .banner .banner_1 button a {
+    font-size: 17px;
+  }
+  .promo {
+    flex-direction: column;
+    height: 385px;
+    margin: 0;
+    width: 100%;
+  }
+  .promo img.file {
+    height: 16%;
+    width: 10%;
+  }
+  .promo .promo_icons {
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100px;
+
+  }
+  .div {
+    padding: 0;
+  }
+  .div h3 {
+    font-size: 25px;
+  }
+  .div p {
+    font-size: 18px;
+  }
+  .price {
+    padding-top: 10px;
+    padding-bottom: 0;
+    height: 750px;
+  }
+  .price h4 {
+    margin-top: 0;
+  }
+  .price .price_table p {
+    line-height: 50px;
+  }
+  .price .price_table .column_1 {
+    width: 26%;
+  }
+  .price .price_table .column_1 .free {
+    font-size: 22px;
+  }
+  .price .price_table .column_2 {
+    width: 26%;
+  }
+  .price .price_table .column_2 .prof {
+    font-size: 22px;
+  }
+  .price .price_table .column_3 {
+    width: 26%;
+  }
+  .price .price_table .column_3 .enter {
+    font-size: 22px;
+  }
+  .price .price_button button {
+    width: 26%;
+    font-size: 20px;
+  }
+  aside .description p {
+    text-align: center;
+  }
+  .form_group {
+    height: 600px;
+  }
+  .form_group .form_button button {
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .form_group .form_items .form_items_text input {
+    width: 200px;
+  }
+  .form_group .form_items_textarea textarea {
+    width: 200px;
+  }
+  footer .footer_items img {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+  }
+  footer .footer_items h5 {
+    font-size: 18px;
+  }
+  footer .footer_items h5 span {
+    padding: 0;
+  }
+  footer .footer_items p {
+    text-align: center;
+    width: 200px;
+  }
+  footer .footer_icons img {
+    width: 40px;
+    height: 40px;
+  };
+}
