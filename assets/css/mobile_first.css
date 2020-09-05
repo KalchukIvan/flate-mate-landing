@@ -16,10 +16,8 @@
     width: calc(100% - 60px);
   }
   .promo img.file {
-    width: 20%;
-    height: 60%;
+    height: 140px;
     padding-right: 12px;
-    width: auto;
   }
    .promo .promo_text h2 {
     font-size: 25px;
@@ -61,6 +59,11 @@
     justify-content: space-around;
     width: 100%;
   }
+  .promo img.file {
+    width: 114px;
+    max-width: 180px;
+    height: 157px;
+  }
   .promo_icons img {
     width: 70%;
   }
@@ -76,7 +79,7 @@
   }
   .banner  img {
     padding: 0;
-    width: 17%;
+    width: 100px;
   }
   .price {
     padding-top: 30px; 
@@ -149,8 +152,8 @@
     width: 100%;
   }
   .promo img.file {
-    height: 16%;
-    width: 10%;
+    height: 70px;
+    width: 50px;
   }
   .promo .promo_icons {
     justify-content: space-around;
@@ -294,6 +297,9 @@
   .promo {
     width: 100%;
   }
+  .promo .promo_text {
+    padding: 0 0 0 37px;
+  }
   .promo .promo_text h2 {
     margin: 0;
     font-size: 18px;
@@ -303,7 +309,7 @@
     margin-bottom: 0;
   }
   .promo img.file {
-    height: 70px;
+    height: 100px;
     padding-left: 10px;
   }
   .div {
