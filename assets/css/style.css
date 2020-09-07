@@ -137,9 +137,8 @@ a {
   margin: 0 auto;
 }
 .promo img.file {
-  width: 200px;
-  max-width: 100px;
-  height: 70%;
+   width: 150px;
+  height: 190px;
 }
 .promo_text {
 padding: 0 10px;
