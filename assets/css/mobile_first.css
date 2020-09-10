@@ -83,6 +83,14 @@
   .price {
     padding-top: 30px; 
   }
+  .price .price_table .column_2 {
+    border: 1px solid;
+    border-bottom: none;
+    border-top: none;
+  }
+  .price .price_table .column_1, .column_2, .column_3 {
+    flex-basis: 50%;
+  }
   .form_group .form_button button {
     width: 27%;
     height: 140%;
@@ -180,6 +188,9 @@
   .price .price_table p {
     line-height: 50px;
   }
+  .price .price_table .column_1, .column_2, .column_3 {
+    flex-basis: 37%;
+  }
   .price .price_table .column_1 {
     width: 26%;
   }
@@ -188,6 +199,9 @@
   }
   .price .price_table .column_2 {
     width: 26%;
+    border: 1px solid;
+    border-bottom: none;
+    border-top: none;
   }
   .price .price_table .column_2 .prof {
     font-size: 22px;
@@ -345,6 +359,9 @@
   }
   .price .price_table .column_2 {
     width: 33.3%;
+    border: 1px solid;
+    border-bottom: none;
+    border-top: none;
   }
   .price .price_table .column_3 {
     width: 33.3%; 
