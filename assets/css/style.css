@@ -1,6 +1,3 @@
-/* * {
-  box-sizing: border-box;
-} */
 body {
   font-family: 'Roboto', sans-serif;
   width: 100%;
@@ -37,7 +34,6 @@ a {
 @keyframes logo {
   0% {
       transform: rotate(0) scale(.8);
-      /* left: 90%; */
   }
   50% {
       transform: rotate(-0deg) scale(.7);
@@ -219,7 +215,6 @@ padding: 0 10px;
 .price_table {
   display: flex;
   justify-content: space-around;
-  /* padding-top: 40px;  */
 }
 .price .price_table p {
   line-height: 80px;
@@ -315,16 +310,6 @@ aside .video_cover {
   background-size: cover;
   background-image: url(/assets/img/Layer-14.png);
 }
-/* aside .video_cover .play_btn {
-  position: absolute;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(/assets/img/.png);
-  width: 50px;
-  height: 50px;
-  left: calc(50% - 25px);
-  top: calc(50% - 25px);
-} */
 aside .video_cover .play_btn {
   position: absolute;
   background-image: url(/assets/img/.png);
@@ -376,7 +361,6 @@ aside .video_cover .video_cover_curtain {
   font-size: 20px;
   color: #d7d7d7;
   outline: 0;
-  /* padding: 0; */
 }
 .form_group .form_items .form_items_text input:focus {
   background-color: #2f3136;
@@ -452,8 +436,11 @@ footer .footer_items h5 {
   font-weight: 500;
   color: #ffffff;
 }
-footer .footer_items p, a {
+footer .footer_items p {
   color: #8d8d8d;
+}
+footer .footer_items a {
+  color: #ffffff;
 }
 footer .footer_items a:hover {
   color: #ffffff;
