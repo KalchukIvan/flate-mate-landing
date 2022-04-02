@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/mobile_first.css">
+  <link rel="stylesheet" href="/action.php">
 </head>
 <body>
 <div class="cover">
@@ -95,13 +96,13 @@
   </div>
 </aside>
 <div class="form_group">
-  <div class="contact_img">
+  <!-- <div class="contact_img">
     <img src="/assets/img/---Contact-Icon---.png" alt="mail">
   </div>
   <div class="form_items">
     <div class="form_items_text">
       <p>Name<span>*</span></p>
-      <input type="text">
+      <input type="text name=username">
       <p>E-mail<span>*</span></p>
       <input type="text">
     </div>
@@ -112,7 +113,12 @@
   </div>
   <div class="form_button">
     <button><a href="#">Send</a></button> 
-  </div>
+  </div> -->
+  <form action="action.php" method="post">
+    <p>Ваше имя: <input type="text" name="name" /></p>
+    <p>Ваш возраст: <input type="text" name="age" /></p>
+    <p><input type="submit" /></p>
+   </form>
 </div>
 <footer>
   <div class="footer_items">
@@ -127,7 +133,8 @@
     <a href="#"><img src="/assets/img/Btn---FB-copy.png" alt="Twitter"></a>
     <a href="#"><img src="/assets/img/Btn---FB.png" alt="Facebook"></a>
   </div>
-  <p>ds;gfdhj;flkh;dlgkhsd';lgsdl;g</p>
+  <p>Hello tests1</p>
+  <p>Hello tests2</p>
 </footer>
 </body>
 </html>
